@@ -23,7 +23,7 @@ const greeting = {
   username: "Edy Kurniawan",
   title: "Hi all, I'm Edy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web with Laravel / Express Js / ReactJs / Wordpress and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web with Laravel / Express Js / Wordpress and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1c3kWn3BeEY8kgOVRo4UjLJI1cOz93zmJ/view?usp=sharing", // Set to empty to hide the button
@@ -80,10 +80,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -119,6 +115,14 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "php",
       fontAwesomeClassname: "fab fa-php"
     },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "react",
+      fontAwesomeClassname: "fab fa-react"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -250,18 +254,14 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Integrated Business Management Solution",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "I developed an ERP (Enterprise Resource Planning) system that includes key modules such as purchasing, stock management, sales, and accounting.",
       image: require("./assets/images/project/1.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Laravel",
-          url: "#"
-        },
-        {
-          name: "MySQL",
           url: "#"
         },
         {
@@ -275,9 +275,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Geospatial Analysis for Customer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "A WebGIS was created to visualize and analyze spatial data, focusing on the distribution of customer locations and population density.",
       image: require("./assets/images/project/2.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -292,16 +292,12 @@ const achievementSection = {
         {
           name: "Bootstrap",
           url: "#"
-        },
-        {
-          name: "Jquery",
-          url: "#"
         }
       ]
     },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "SNAP BI with BRI and BNI",
+      subtitle: "This solution enables seamless, secure, and real-time online payment processing, providing users with multiple banking options and enhancing transaction efficiency.",
       image: require("./assets/images/project/3.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -310,22 +306,18 @@ const achievementSection = {
           url: "#"
         },
         {
-          name: "Arduino",
+          name: "Virtual Account",
           url: "#"
         },
         {
-          name: "Websockets",
-          url: "#"
-        },
-        {
-          name: "RFID",
+          name: "SNAP BI",
           url: "#"
         }
       ]
     },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "HRIS and Payroll System",
+      subtitle: "Automate various HR processes, including attendance tracking, overtime calculation, leave management, and salary processing.",
       image: require("./assets/images/project/4.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -344,36 +336,40 @@ const achievementSection = {
         {
           name: "RFID",
           url: "#"
+        },
+        {
+          name: "Express Js",
+          url: "#"
+        },
+        {
+          name: "Redis",
+          url: "#"
         }
       ]
     },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "WhatsApp API Integration",
+      subtitle: "A WhatsApp API integration was developed to automate the broadcasting of invoices, leveraging both official and unofficial API solutions.",
       image: require("./assets/images/project/5.png"),
       imageAlt: "PWA Logo",
       footerLink: [
         {
-          name: "Laravel",
+          name: "Express Js",
           url: "#"
         },
         {
-          name: "Arduino",
+          name: "Webhooks",
           url: "#"
         },
         {
-          name: "Websockets",
-          url: "#"
-        },
-        {
-          name: "RFID",
+          name: "Chromium",
           url: "#"
         }
       ]
     },
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Unified Access for Multiple Applications",
+      subtitle: "Provide a seamless authentication process across multiple applications with a single set of credentials",
       image: require("./assets/images/project/6.png"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -382,15 +378,87 @@ const achievementSection = {
           url: "#"
         },
         {
-          name: "Arduino",
+          name: "JWT",
+          url: "#"
+        }
+      ]
+    },
+    {
+      title: "MikroTik API Integration",
+      subtitle: "A custom API was developed using MikroTik to manage customers who subscribe to internet services and control bandwidth allocation.",
+      image: require("./assets/images/project/7.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Laravel",
           url: "#"
         },
         {
-          name: "Websockets",
+          name: "Mikrotik",
           url: "#"
         },
         {
-          name: "RFID",
+          name: "JWT",
+          url: "#"
+        }
+      ]
+    },
+    {
+      title: "Landing Pages and Company Profiles",
+      subtitle: "Developed customized landing pages and company profiles for several organizations, aimed at enhancing their online presence and engaging potential clients.",
+      image: require("./assets/images/project/8.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Wordpress",
+          url: "#"
+        },
+        {
+          name: "Elementor",
+          url: "#"
+        },
+        {
+          name: "Woocommerce",
+          url: "#"
+        }
+      ]
+    },
+    {
+      title: "Web Server Development",
+      subtitle: "A fully integrated web server infrastructure was designed and deployed, encompassing DNS configuration, database management, and NAS server setup",
+      image: require("./assets/images/project/9.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Linux",
+          url: "#"
+        },
+        {
+          name: "Nginx",
+          url: "#"
+        },
+        {
+          name: "Nextcloud",
+          url: "#"
+        },
+        {
+          name: "MySQL",
+          url: "#"
+        }
+      ]
+    },
+    {
+      title: "Virtual Server Infrastructure",
+      subtitle: "A virtual server infrastructure was built using Proxmox, enabling the creation and management of multiple virtual machines (VMs) with centralized monitoring via Grafana",
+      image: require("./assets/images/project/10.png"),
+      imageAlt: "PWA Logo",
+      footerLink: [
+        {
+          name: "Proxmox",
+          url: "#"
+        },
+        {
+          name: "Grafana",
           url: "#"
         }
       ]

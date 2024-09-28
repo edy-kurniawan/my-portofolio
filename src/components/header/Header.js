@@ -53,7 +53,7 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Portfolio</a>
+              <a href="#achievements">Projects</a>
             </li>
           )}
           {viewResume && (
